@@ -17,6 +17,7 @@ const DropDownContainer = styled.div.attrs(
 )`
   width: ${(props) => props.menuWidth};
   margin: ${(props) => (props.manuMargin ? props.manuMargin : "5px")};
+  font-family: Arial;
 `;
 const DefaultArea = styled.div.attrs((props: { menuHeight: string, bgColor: string }) => props)`
   width: 100%;
